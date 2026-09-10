@@ -1,4 +1,4 @@
-FROM :latest
+FROM debian:latest
 WORKDIR /app
 RUN apt update && apt upgrade -y
 RUN apt install git node npm php -y

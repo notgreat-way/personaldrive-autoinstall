@@ -10,6 +10,6 @@ RUN mv composer.phar /usr/local/bin/composer
 RUN git clone https://github.com/gyaaniguy/personal-drive.git
 RUN cd personal-drive
 RUN rm -rf ./setup.sh
-RUN wget https://way.f5.si/personaldrive/setup.sh
+RUN wget https://raw.githubusercontent.com/notgreat-way/way.f5.si/refs/heads/main/personaldrive/setup.sh
 RUN chmod +x setup.sh
 RUN ./setup.sh

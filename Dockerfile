@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:latest
 WORKDIR /app
 RUN apt update && apt upgrade -y
 RUN apt install git nodejs npm php wget -y

@@ -9,7 +9,5 @@ RUN php -r "unlink('composer-setup.php');"
 RUN mv composer.phar /usr/local/bin/composer
 RUN git clone https://github.com/gyaaniguy/personal-drive.git
 RUN cd personal-drive
-RUN rm -rf setup.sh
-RUN wget https://gist.githubusercontent.com/notgreat-way/a699ad823589746c771deea3a2c227df/raw/86b82aad982a5f29ea43d9bf9991468627ad3f44/setup.sh
 RUN chmod +x setup.sh
 RUN sh setup.sh

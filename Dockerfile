@@ -10,4 +10,4 @@ RUN mv composer.phar /usr/local/bin/composer
 RUN git clone https://github.com/gyaaniguy/personal-drive.git
 RUN cd personal-drive
 RUN chmod +x setup.sh
-RUN sh setup.sh
+RUN bash setup.sh

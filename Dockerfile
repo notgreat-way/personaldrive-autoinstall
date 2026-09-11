@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:bookworm
 WORKDIR /app
 RUN apt update && apt upgrade -y
 RUN apt install git nodejs npm php wget -y
